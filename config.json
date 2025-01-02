@@ -2,7 +2,7 @@
     "description" : "특이사항 여기에 기록",
 
     "---common configs---":"",
-    "epoch" : 4000,
+    "epoch" : 1000,
     "lr" : 0.0001,
     "mask_iterations" : 3,
 
