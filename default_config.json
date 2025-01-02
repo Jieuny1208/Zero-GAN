@@ -1,0 +1,63 @@
+{
+    "__comment1__":"!!!!수정 금지!!!!",
+    "__comment2__":"이 파일은 초기의 default config들을 저장해놓은 파일로, 실제 실행할 때는 config.json을 수정해주세요",
+
+    "---common configs---":"",
+    "epoch" : 100,
+    "lr" : 0.0001,
+    "mask_iterations" : 32,
+    
+
+    
+    "---data---":"",
+    "categories": [
+        "bottle",
+        "cable",
+        "capsule",
+        "carpet",
+        "grid",
+        "hazelnut",
+        "leather",
+        "metal_nut",
+        "pill",
+        "screw",
+        "tile",
+        "toothbrush",
+        "transistor",
+        "wood",
+        "zipper"
+    ],
+    "category": "bottle",
+    "image_size" : 256,
+    "train_batch_size" : 32,
+    "eval_batch_size" : 32,
+    "num_workers" : 0,
+    "mask_rate" : 0.75,
+    "ratio": 1,
+
+
+
+    "---mae encoder, decoder---":"",
+    "embed_dim" : 1024,
+    "patch_size" : 64,
+    "mlp_ratio" : 0.4,
+
+    
+    "---mae encoder---":"",
+    "encoder_depth" : 24,
+    "encoder_num_heads" : 16,
+
+    "---mae decoder---":"",
+    "decoder_embed_dim" : 512,
+    "decoder_depth" : 8,
+    "decoder_num_heads" : 16,
+    "in_channels" : 3,
+
+
+
+    "---gan encoder---":"",
+    "latent_vector_dim" : 100,
+    "discriminator_feature_num" : 64,
+    "n_extra_layers" : 1,
+    "add_final_conv":true
+}

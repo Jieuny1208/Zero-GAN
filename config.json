@@ -1,0 +1,47 @@
+{
+    "description" : "특이사항 여기에 기록",
+
+    "---common configs---":"",
+    "epoch" : 4000,
+    "lr" : 0.0001,
+    "mask_iterations" : 3,
+
+    
+    "---data---":"",
+    "categories": [
+        "capsule",
+        "cable"
+    ],
+    "category": "bottle",
+    "ratio": 0.15,
+    "image_size" : 128,
+    "train_batch_size" : 1,
+    "eval_batch_size" : 1,
+    "num_workers" : 0,
+    "mask_rate" : 0.0,
+
+
+    "---mae encoder, decoder---":"",
+    "embed_dim" : 1024,
+    "patch_size" : 16,
+    "mlp_ratio" : 0.4,
+
+    
+    "---mae encoder---":"",
+    "encoder_depth" : 24,
+    "encoder_num_heads" : 16,
+
+    "---mae decoder---":"",
+    "decoder_embed_dim" : 512,
+    "decoder_depth" : 8,
+    "decoder_num_heads" : 16,
+    "in_channels" : 3,
+
+
+
+    "---gan encoder---":"",
+    "latent_vector_dim" : 100,
+    "discriminator_feature_num" : 64,
+    "n_extra_layers" : 1,
+    "add_final_conv":true
+}
