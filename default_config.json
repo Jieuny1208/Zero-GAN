@@ -1,9 +1,9 @@
 {
     "__comment1__":"!!!!수정 금지!!!!",
-    "__comment2__":"이 파일은 초기의 default config들을 저장해놓은 파일로, 실제 실행할 때는 config.json 수정",
+    "__comment2__":"이 파일은 default config들을 저장해놓은 파일로, 실제 실행할 때는 config.json 수정",
 
     "---common configs---":"",
-    "epoch" : 100,
+    "epoch" : 1000,
     "lr" : 0.0001,
     "mask_iterations" : 32,
     
